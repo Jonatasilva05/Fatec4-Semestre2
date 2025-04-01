@@ -20,3 +20,5 @@ app.get("/login", (request, response) => {
 app.listen(3000, () => {
     console.log("servidor rodando na porta: 3000");
 })
+
+// node -watch server.js 
